@@ -21,7 +21,7 @@ santi(X, Y) :- ibu(X, Temp), ayah(Temp, Y). /* santi(X, Y) menunjukkan bahwa X a
 
 sandi(X, Y) :- ayah(X, Temp), ibu(Temp, Y). /* , sandi(X, Y) menunjukkan bahwa X adalah "s" (kakek dari pihak ibu) */
 
-popo(X, Y) :- ibu(X, Temp), ibu(Temp, Y).
+sindi(X, Y) :- ibu(X, Temp), ibu(Temp, Y).
 
 a(A1, [A | B]) :- A1 is A + 1.
 a(A, [B | C]) :- a(A, C),ayah(john, peter).
