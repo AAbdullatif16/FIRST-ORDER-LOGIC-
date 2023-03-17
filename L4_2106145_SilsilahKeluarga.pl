@@ -19,7 +19,7 @@ sansan(X, Y) :- ayah(X, Temp), ayah(Temp, Y). /* sansan(X, Y) menunjukkan bahwa 
 
 santi(X, Y) :- ibu(X, Temp), ayah(Temp, Y). /* santi(X, Y) menunjukkan bahwa X adalah "santi" (nenek dari pihak ibu) */
 
-sandi(X, Y) :- ayah(X, Temp), ibu(Temp, Y). /* , sandi(X, Y) menunjukkan bahwa X adalah "s" (kakek dari pihak ibu) */
+sandi(X, Y) :- ayah(X, Temp), ibu(Temp, Y). /* , sandi(X, Y) menunjukkan bahwa X adalah "sandi" (kakek dari pihak ibu) */
 
 sindi(X, Y) :- ibu(X, Temp), ibu(Temp, Y).
 
